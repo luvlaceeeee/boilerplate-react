@@ -24,6 +24,12 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": [".eslintrc.cjs", "postcss.config.cjs", "src", "src/main.tsx"],
+  "include": [
+    ".eslintrc.cjs",
+    "postcss.config.cjs",
+    "vite.config.ts",
+    "src",
+    "src/main.tsx"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
